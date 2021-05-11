@@ -71,6 +71,13 @@
       font-size: 4rem;
       color: $color-primary;
       margin-right: 1rem;
+      @media only screen and (max-width: $bp-medium) {
+        font-size: 3rem;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        font-size: 2rem;
+      }
     }
   }
 

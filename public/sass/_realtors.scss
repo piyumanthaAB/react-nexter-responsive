@@ -3,6 +3,10 @@
   grid-column: col-start 7 / full-end;
   padding: 3rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1/-1;
+  }
+
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
@@ -21,6 +25,14 @@
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {

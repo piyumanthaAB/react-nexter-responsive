@@ -23,6 +23,14 @@
     color: $color-primary;
     grid-row: 1 / span 2;
     transform: translateY(-3rem);
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 6rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 5rem;
+    }
   }
 
   &__text {
