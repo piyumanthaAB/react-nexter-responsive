@@ -1,4 +1,3 @@
-import { BiWorld, BiTrophy, BiLineChart, BiLock } from "react-icons/bi";
 
 const FeatureItem = (props) => {
     return (
