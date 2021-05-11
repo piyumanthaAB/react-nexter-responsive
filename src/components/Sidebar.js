@@ -1,7 +1,7 @@
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            this is side bar
+            <button className="nav-btn"></button>
         </div>
      );
 }
