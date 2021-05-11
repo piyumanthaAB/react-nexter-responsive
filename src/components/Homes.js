@@ -55,9 +55,9 @@ const Homes = () => {
 
     return (
         <section className="homes">
-            {homes.map(home => {
+            {homes.map((home,idx) => {
                 return (
-                    <HomeCard details={home} />
+                    <HomeCard key={idx} details={home} />
                 )
             })}
         </section>
